@@ -4,7 +4,7 @@ from lib.password_checker import *
 # check passwords longer than 8 return True
 def test_long():
     check = PasswordChecker()
-    result = check.check('longpassword')
+    result = check.check('longpasswordislong')
     assert result == True
 
 # check passwords of exactly length 8 return True
